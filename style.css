@@ -1,0 +1,195 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container,
+.hero-1 {
+  width: 94%;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 2rem 2.35rem 0 2.35rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.hero p {
+  margin-top: 1.05rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 1.05rem;
+  font-size: 18px;
+  color: hsl(303, 10%, 53%);
+}
+
+.img {
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.ratings {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.rating-1,
+.rating-2,
+.rating-3 {
+  background-color: hsla(303, 10%, 53%, 0.1);
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+}
+
+.rating-3 {
+  margin-bottom: 2.25rem;
+}
+h3 {
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+}
+
+.basis-personal {
+  background-color: hsl(300, 43%, 22%);
+  margin-bottom: 1.2rem;
+  padding: 1.75rem 1.35rem;
+  border-radius: 15px;
+}
+
+.basis-personal .text {
+  color: white;
+  padding-top: 1rem;
+}
+
+.bio {
+  display: flex;
+  align-content: flex-start;
+  font-size: 16px;
+}
+
+.bio-2 {
+  margin-left: 1.15rem;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 2.75rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: white;
+  font-weight: 700;
+}
+.person {
+  color: hsl(333, 80%, 67%);
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5rem 0 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-1 {
+    flex-basis: 30rem;
+    margin: 0;
+  }
+
+  h1 {
+    padding: 0;
+    font-size: 3.25rem;
+    text-align: left;
+  }
+
+  .hero p {
+    text-align: left;
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .img {
+    display: inline;
+    float: left;
+    margin-right: 0.8rem;
+  }
+
+  .ratings {
+    margin: 0;
+    flex-basis: 50rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: left;
+  }
+  .rating-1 {
+    align-self: flex-start;
+    width: 60%;
+  }
+  .rating-2 {
+    align-self: center;
+    width: 60%;
+  }
+  .rating-3 {
+    align-self: flex-end;
+    width: 60%;
+  }
+
+  .basis {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 36vh;
+  }
+
+  .basis-personal {
+    flex: 0 0 32%;
+  }
+
+  .bp1 {
+    align-self: flex-start;
+  }
+
+  .bp2 {
+    align-self: center;
+  }
+  .bp3 {
+    align-self: flex-end;
+  }
+}
